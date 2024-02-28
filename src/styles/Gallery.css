@@ -1,0 +1,19 @@
+.gallery-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.thumbnail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 16px;
+}
+
+.thumbnail {
+  cursor: pointer;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}

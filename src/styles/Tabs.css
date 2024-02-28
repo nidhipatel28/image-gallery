@@ -1,0 +1,20 @@
+.tabs-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab {
+  cursor: pointer;
+  padding: 10px 20px;
+  border: 2px solid green;
+  border-radius: 50px;
+  margin-right: 10px;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.tab.selected {
+  background-color: green;
+  color: white;
+}
